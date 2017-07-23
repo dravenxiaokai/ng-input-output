@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # NgInputOutput
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
@@ -26,3 +27,7 @@ Before running the tests make sure you are serving the app via `ng serve`.
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+=======
+# ng-input-output
+angular-输入属性@Input()，输出属性@Output()
+>>>>>>> ae0c9e50192ec4b3cb77913988780115fe139bc3
