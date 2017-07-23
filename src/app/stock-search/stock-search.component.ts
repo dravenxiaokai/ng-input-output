@@ -15,7 +15,14 @@ export class StockSearchComponent implements OnInit {
   @Output()
   searchResult:EventEmitter<StockInfo> = new EventEmitter();
 
+  @Output()
+  addCart:EventEmitter<StockInfo> = new EventEmitter();
+
   constructor() { }
+
+  buyStock(){
+    this.addCart.emit(new StockInfo(this.keyword,this.price));
+  }
 
   ngOnInit() {
     setInterval(() => {

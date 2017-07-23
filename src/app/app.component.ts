@@ -8,11 +8,16 @@ import { StockInfo } from './stock-search/stock-search.component'
 })
 export class AppComponent {
 
-  private search:string;
+  // private search:string;
 
-  private currentPrice:number;
+  // private currentPrice:number;
 
-  searchResultHandler(stockInfo:StockInfo){
-    this.currentPrice = stockInfo.price;
+  private stockInfo:StockInfo;
+
+  // searchResultHandler(stockInfo:StockInfo){
+  //   this.currentPrice = stockInfo.price;
+  // }
+  addCartHandler(stockInfo:StockInfo){
+    this.stockInfo = stockInfo;
   }
 }
