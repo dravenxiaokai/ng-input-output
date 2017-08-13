@@ -1,33 +1,7 @@
-<<<<<<< HEAD
-# NgInputOutput
+# ng input output
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
+### angular-输入属性@Input()，输出属性@Output()
 
-## Development server
+angular通过@Input()和@Output()函数，来实现父子组件之间的通讯
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-=======
-# ng-input-output
-angular-输入属性@Input()，输出属性@Output()
->>>>>>> ae0c9e50192ec4b3cb77913988780115fe139bc3
+[我的微博](http://weibo.com/u/3826537889?refer_flag=1001030201_&is_all=1)
